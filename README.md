@@ -5,6 +5,8 @@ Not create any database structure, just use it.
 
 > I recommend use this tool exclusively for developing.
 
+Include types for TypeScript.
+
 ## API
 
 ```js
@@ -20,8 +22,20 @@ const myRow1 = await select("collection1", idOfRow);
 // UPDATE
 await update("collection1", idOfRow, { ...myRow1, update: 1 });
 
-// DELETE
+// REMOVE
 await remove("collection1", idOfRow); // only one row
+```
+
+## Example of use
+
+```js
+import { select, update } from "easy-db-react-native";
+
+// Save nickname 
+await update("myAppName", "nickname", nickname);
+
+// Load nickname
+const nickname = await select("myAppName", "nickname");
 ```
 
 ## Files
