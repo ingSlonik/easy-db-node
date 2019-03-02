@@ -1,0 +1,40 @@
+{
+    "name": "easy-db-node",
+    "version": "0.1.0",
+    "description": "Lite&easy database for Node.js.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc --declaration",
+        "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+        "prepublish": "npm run build"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^11.9.6",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
+        "ts-node": "^8.0.2",
+        "typescript": "^3.3.3333"
+    },
+    "dependencies": {
+        "easy-db-core": "^0.1.0"
+    },
+    "keywords": [
+        "easy&lite",
+        "node",
+        "database",
+        "json",
+        "files",
+        "manually rewrite"
+    ],
+    "author": "Filip Paulů <ing.fenix@seznam.cz>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ingSlonik/easy-db-node.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ingSlonik/easy-db-node/issues"
+    }
+}
