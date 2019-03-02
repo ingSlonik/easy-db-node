@@ -1,4 +1,4 @@
-# Easy DB node
+# Easy DB for Node.js
 
 Lite&easy database for Node.js, based on `easy-db-code`.
 Not create any database structure, just use it.
