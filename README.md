@@ -1,5 +1,7 @@
 # Easy DB for Node.js
 
+> **Deprecated repository.** Use [easy-db](https://github.com/ingSlonik/easy-db) instead.
+
 Lite&easy database for Node.js, based on `easy-db-code`.
 Not create any database structure, just use it.
 
